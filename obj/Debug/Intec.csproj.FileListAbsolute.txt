@@ -1,0 +1,28 @@
+C:\Users\jefe4\source\repos\Intec\bin\Debug\Intec.exe.config
+C:\Users\jefe4\source\repos\Intec\bin\Debug\Intec.exe
+C:\Users\jefe4\source\repos\Intec\bin\Debug\Intec.pdb
+C:\Users\jefe4\source\repos\Intec\obj\Debug\Intec.csprojAssemblyReference.cache
+C:\Users\jefe4\source\repos\Intec\obj\Debug\Intec.Form1.resources
+C:\Users\jefe4\source\repos\Intec\obj\Debug\Intec.Properties.Resources.resources
+C:\Users\jefe4\source\repos\Intec\obj\Debug\Intec.SubjectForm.resources
+C:\Users\jefe4\source\repos\Intec\obj\Debug\Intec.csproj.GenerateResource.cache
+C:\Users\jefe4\source\repos\Intec\obj\Debug\Intec.csproj.CoreCompileInputs.cache
+C:\Users\jefe4\source\repos\Intec\obj\Debug\Intec.exe
+C:\Users\jefe4\source\repos\Intec\obj\Debug\Intec.pdb
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\bin\Debug\Intec.exe.config
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\bin\Debug\Intec.exe
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\bin\Debug\Intec.pdb
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\obj\Debug\Intec.csprojAssemblyReference.cache
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\obj\Debug\Intec.Form1.resources
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\obj\Debug\Intec.Properties.Resources.resources
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\obj\Debug\Intec.SubjectForm.resources
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\obj\Debug\Intec.csproj.GenerateResource.cache
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\obj\Debug\Intec.csproj.CoreCompileInputs.cache
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\obj\Debug\Intec.exe
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\obj\Debug\Intec.pdb
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\obj\Debug\Intec.StudentForm.resources
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\bin\Debug\EntityFramework.dll
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\bin\Debug\EntityFramework.xml
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\obj\Debug\Intec.csproj.CopyComplete

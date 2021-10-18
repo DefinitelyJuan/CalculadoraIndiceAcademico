@@ -1,0 +1,405 @@
+﻿
+namespace Intec
+{
+    partial class SubjectForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.dgvSubject = new System.Windows.Forms.DataGridView();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.ECreditBox = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.ECodeBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.ENameBox = new System.Windows.Forms.TextBox();
+            this.labelname = new System.Windows.Forms.Label();
+            this.gbEdit = new System.Windows.Forms.GroupBox();
+            this.CreditBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.CodeBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.NameBox = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.DCodeBox = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSubject)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.gbEdit.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // dgvSubject
+            // 
+            this.dgvSubject.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvSubject.Location = new System.Drawing.Point(9, 84);
+            this.dgvSubject.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvSubject.Name = "dgvSubject";
+            this.dgvSubject.RowHeadersWidth = 51;
+            this.dgvSubject.RowTemplate.Height = 24;
+            this.dgvSubject.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvSubject.Size = new System.Drawing.Size(332, 271);
+            this.dgvSubject.TabIndex = 0;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.ECreditBox);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.btnEdit);
+            this.groupBox1.Controls.Add(this.ECodeBox);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.ENameBox);
+            this.groupBox1.Controls.Add(this.labelname);
+            this.groupBox1.Location = new System.Drawing.Point(9, 10);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Size = new System.Drawing.Size(332, 70);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Edit Panel";
+            // 
+            // ECreditBox
+            // 
+            this.ECreditBox.Location = new System.Drawing.Point(192, 38);
+            this.ECreditBox.Margin = new System.Windows.Forms.Padding(2);
+            this.ECreditBox.Name = "ECreditBox";
+            this.ECreditBox.Size = new System.Drawing.Size(48, 20);
+            this.ECreditBox.TabIndex = 6;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(189, 23);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(51, 15);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Creditos";
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(227)))), ((int)(((byte)(84)))));
+            this.btnEdit.FlatAppearance.BorderSize = 0;
+            this.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEdit.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEdit.ForeColor = System.Drawing.Color.White;
+            this.btnEdit.Location = new System.Drawing.Point(259, 38);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(56, 19);
+            this.btnEdit.TabIndex = 4;
+            this.btnEdit.Text = "Guardar";
+            this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            // 
+            // ECodeBox
+            // 
+            this.ECodeBox.Location = new System.Drawing.Point(8, 39);
+            this.ECodeBox.Margin = new System.Windows.Forms.Padding(2);
+            this.ECodeBox.Name = "ECodeBox";
+            this.ECodeBox.Size = new System.Drawing.Size(64, 20);
+            this.ECodeBox.TabIndex = 3;
+            this.ECodeBox.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(6, 23);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(45, 15);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Codigo";
+            // 
+            // ENameBox
+            // 
+            this.ENameBox.Location = new System.Drawing.Point(92, 39);
+            this.ENameBox.Margin = new System.Windows.Forms.Padding(2);
+            this.ENameBox.Name = "ENameBox";
+            this.ENameBox.Size = new System.Drawing.Size(76, 20);
+            this.ENameBox.TabIndex = 1;
+            this.ENameBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // labelname
+            // 
+            this.labelname.AutoSize = true;
+            this.labelname.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelname.Location = new System.Drawing.Point(89, 23);
+            this.labelname.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelname.Name = "labelname";
+            this.labelname.Size = new System.Drawing.Size(50, 15);
+            this.labelname.TabIndex = 0;
+            this.labelname.Text = "Nombre";
+            // 
+            // gbEdit
+            // 
+            this.gbEdit.Controls.Add(this.CreditBox);
+            this.gbEdit.Controls.Add(this.label4);
+            this.gbEdit.Controls.Add(this.button4);
+            this.gbEdit.Controls.Add(this.btnSave);
+            this.gbEdit.Controls.Add(this.CodeBox);
+            this.gbEdit.Controls.Add(this.label2);
+            this.gbEdit.Controls.Add(this.NameBox);
+            this.gbEdit.Controls.Add(this.label3);
+            this.gbEdit.Enabled = false;
+            this.gbEdit.Location = new System.Drawing.Point(360, 10);
+            this.gbEdit.Margin = new System.Windows.Forms.Padding(2);
+            this.gbEdit.Name = "gbEdit";
+            this.gbEdit.Padding = new System.Windows.Forms.Padding(2);
+            this.gbEdit.Size = new System.Drawing.Size(205, 169);
+            this.gbEdit.TabIndex = 2;
+            this.gbEdit.TabStop = false;
+            this.gbEdit.Text = "Addition Panel";
+            // 
+            // CreditBox
+            // 
+            this.CreditBox.Location = new System.Drawing.Point(14, 91);
+            this.CreditBox.Margin = new System.Windows.Forms.Padding(2);
+            this.CreditBox.Name = "CreditBox";
+            this.CreditBox.Size = new System.Drawing.Size(76, 20);
+            this.CreditBox.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(11, 75);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(46, 15);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Credito";
+            // 
+            // btnSave
+            // 
+            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(227)))), ((int)(((byte)(84)))));
+            this.btnSave.FlatAppearance.BorderSize = 0;
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSave.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.ForeColor = System.Drawing.Color.White;
+            this.btnSave.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSave.Location = new System.Drawing.Point(119, 91);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(71, 20);
+            this.btnSave.TabIndex = 4;
+            this.btnSave.Text = "Guardar";
+            this.btnSave.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // CodeBox
+            // 
+            this.CodeBox.Location = new System.Drawing.Point(117, 39);
+            this.CodeBox.Margin = new System.Windows.Forms.Padding(2);
+            this.CodeBox.Name = "CodeBox";
+            this.CodeBox.Size = new System.Drawing.Size(76, 20);
+            this.CodeBox.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(115, 23);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(45, 15);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Codigo";
+            // 
+            // NameBox
+            // 
+            this.NameBox.Location = new System.Drawing.Point(14, 39);
+            this.NameBox.Margin = new System.Windows.Forms.Padding(2);
+            this.NameBox.Name = "NameBox";
+            this.NameBox.Size = new System.Drawing.Size(76, 20);
+            this.NameBox.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(11, 23);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(50, 15);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Nombre";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btnDelete);
+            this.groupBox2.Controls.Add(this.DCodeBox);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Location = new System.Drawing.Point(360, 200);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(205, 84);
+            this.groupBox2.TabIndex = 9;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Delete Panel";
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(47)))), ((int)(((byte)(17)))));
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.ForeColor = System.Drawing.Color.White;
+            this.btnDelete.Location = new System.Drawing.Point(119, 43);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(68, 21);
+            this.btnDelete.TabIndex = 9;
+            this.btnDelete.Text = "Borrar";
+            this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // DCodeBox
+            // 
+            this.DCodeBox.Location = new System.Drawing.Point(14, 44);
+            this.DCodeBox.Margin = new System.Windows.Forms.Padding(2);
+            this.DCodeBox.Name = "DCodeBox";
+            this.DCodeBox.Size = new System.Drawing.Size(76, 20);
+            this.DCodeBox.TabIndex = 14;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Lato", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(11, 28);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(45, 15);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Codigo";
+            // 
+            // btnBack
+            // 
+            this.btnBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(227)))), ((int)(((byte)(84)))));
+            this.btnBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnBack.FlatAppearance.BorderSize = 0;
+            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBack.Font = new System.Drawing.Font("Lato", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.ForeColor = System.Drawing.Color.White;
+            this.btnBack.Location = new System.Drawing.Point(360, 301);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(2);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(205, 35);
+            this.btnBack.TabIndex = 16;
+            this.btnBack.Text = "Volver";
+            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(227)))), ((int)(((byte)(84)))));
+            this.btnAdd.BackgroundImage = global::Intec.Properties.Resources.add__v2;
+            this.btnAdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAdd.FlatAppearance.BorderSize = 0;
+            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdd.Location = new System.Drawing.Point(374, 125);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(41, 43);
+            this.btnAdd.TabIndex = 6;
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackgroundImage = global::Intec.Properties.Resources.pngtree_vector_plus_icon_png_image_515260;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.Location = new System.Drawing.Point(282, 12);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(50, 53);
+            this.button4.TabIndex = 6;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // SubjectForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.gbEdit);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.dgvSubject);
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "SubjectForm";
+            this.Text = "SubjectForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SubjectForm_FormClosing);
+            this.Load += new System.EventHandler(this.SubjectForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSubject)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.gbEdit.ResumeLayout(false);
+            this.gbEdit.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView dgvSubject;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox ENameBox;
+        private System.Windows.Forms.Label labelname;
+        private System.Windows.Forms.TextBox ECodeBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.GroupBox gbEdit;
+        private System.Windows.Forms.TextBox CreditBox;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.TextBox CodeBox;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox NameBox;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.TextBox DCodeBox;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.TextBox ECreditBox;
+        private System.Windows.Forms.Label label6;
+    }
+}
