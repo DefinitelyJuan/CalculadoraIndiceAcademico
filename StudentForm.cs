@@ -204,6 +204,7 @@ namespace Intec
             }
             //[[1,juan,avila,fecha,bla,bla]]
             label8.Text = itemList[0][1]; //Imprime el elemento que esta en la columa dos de esa fila.
+            calcularIndice();
         }
 
         //private void dgvStudent_SelectionChanged(object sender, EventArgs e)
@@ -216,6 +217,23 @@ namespace Intec
         //    label8.Text = a;
 
         //}
+        private void calcularIndice()
+        {
+            int sumaSeq = 0;
+            foreach (DataGridViewRow row in dgvStudent.Rows)
+            {
+                if (row.Cells[0].Value != null)
+                {
+                    sumaSeq += Convert.ToInt32(row.Cells[0].Value.ToString());
+                }//suma de creditos, por ejemplo
+                
+                //falta ahora if row.Cells[columnacalificacion].Value.ToString() == "A" tantos puntos
+                //y sumarlo a la cuenta para tener los dos datos (suma de creditos y suma de puntos)
+                //y aplicar la formula (creo que es puntos/creditos).
+            }
+            label8.Text = sumaSeq.ToString(); //sumaSeq seria indice obviamente, era pa la prueba
+            //añadir otro label que indique si es summa cum laude y eso (es un if/switch sencillo) 
+        }
    
     }
     
