@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using Back;
+using SubjectForm;
 
 namespace IndiceLog
 {
@@ -21,9 +22,9 @@ namespace IndiceLog
 					var validLogin = user.LoginUser(IDField.Text, PasswordField.Text);
 					if (validLogin == true)
 					{
-						/*Show the main form and hide the Login form
-						CRUD crud = new CRUD(); Cambiar con nombre del main
-						crud.Show();*/
+						// Show the main form and hide the Login form
+						SubjectForm crud = new SubjectForm(); 
+						crud.Show();
 						this.Hide();
 					}
 					else
