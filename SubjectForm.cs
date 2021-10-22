@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Intec;
 
 namespace Intec
 {
@@ -25,10 +26,10 @@ namespace Intec
 
         void getSubjects()
         {
-            string connString = "Server=DESKTOP-UV4U0E0;Database=ProyectoIDS311;Integrated Security = true";
+            string connString = "Server=desktop-91438d4;Database=ProyectoIDS311;Integrated Security = true";
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
-                SqlCommand sqlCommand = new SqlCommand("sp_Students", sqlConnection);
+                SqlCommand sqlCommand = new SqlCommand("sp_Student", sqlConnection);
                 sqlConnection.Open();
                 sqlCommand.CommandType = CommandType.StoredProcedure;
                 //sqlCommand.Parameters.Add("@Seq", SqlDbType.Int).Value = 1;
@@ -61,7 +62,7 @@ namespace Intec
         private void btnSave_Click(object sender, EventArgs e)
         {
             string add = "INSERT INTO STUDENTS (STUDENTID, SUBJECTID, SUBJECTNAME , CREDITS, GRADE)" + "VALUES("+ idBox.Text + ",'" + CodeBox.Text + "','" + NameBox.Text + "'," + CreditBox.Text + ",'" + notaBox.Text + "')";
-            string connString = "Server=DESKTOP-UV4U0E0;Database=ProyectoIDS311;Integrated Security = true";
+            string connString = "Server=desktop-91438d4;Database=ProyectoIDS311;Integrated Security = true";
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
                 SqlCommand cmd = new SqlCommand(add, sqlConnection);
@@ -92,7 +93,7 @@ namespace Intec
         private void btnDelete_Click(object sender, EventArgs e)
         {
             string delete = "DELETE FROM SUBJECT WHERE Code=" + "'" + DCodeBox.Text + "'";
-            string connString = "Server=DESKTOP-UV4U0E0;Database=ProyectoIDS311;Integrated Security = true";
+            string connString = "Server=desktop-91438d4;Database=ProyectoIDS311;Integrated Security = true";
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
                 SqlCommand cmd = new SqlCommand(delete, sqlConnection);
@@ -121,16 +122,16 @@ namespace Intec
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            /*var oForm1 = new Form1();
-            oForm1.Show();*/
-
+            var Form1 = new Form1();
+            Form1.Show();
             this.Hide();
+
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
             string edit = "UPDATE SUBJECT SET NAME='" + ENameBox.Text + "', CREDITS='" + ECreditBox.Text + "' WHERE CODE='" + ECodeBox.Text + "'";
-            string connString = "Server=DESKTOP-UV4U0E0;Database=ProyectoIDS311;Integrated Security = true";
+            string connString = "Server=desktop-91438d4;Database=ProyectoIDS311;Integrated Security = true";
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
                 SqlCommand cmd = new SqlCommand(edit, sqlConnection);

@@ -49,7 +49,7 @@ namespace Intec
         private void btnSave_Click(object sender, EventArgs e)
         {
             string add = "INSERT INTO STUDENT (FIRSTNAME,LASTNAME,DAYOFBIRTH)" + "VALUES('" + NameBox.Text + "','" + LastNameBox.Text + "','" + DobBox.Text + "')";
-            string connString = "Server=DESKTOP-UV4U0E0;Database=INTEC;User Id=intec;Password=intec;";
+            string connString = "Server=desktop-91438d4;Database=INTEC;User Id=intec;Password=intec;";
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
                 SqlCommand cmd = new SqlCommand(add, sqlConnection);
@@ -100,7 +100,7 @@ namespace Intec
         private void btnDelete_Click(object sender, EventArgs e)
         {
             string delete = "DELETE FROM STUDENT WHERE Seq=" + DSeqBox.Text;
-            string connString = "Server=DESKTOP-UV4U0E0;Database=INTEC;User Id=intec;Password=intec;";
+            string connString = "Server=desktop-91438d4;Database=ProyectoIDS311;User Id=intec;Password=intec;";
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
                 SqlCommand cmd = new SqlCommand(delete, sqlConnection);
@@ -149,7 +149,7 @@ namespace Intec
         private void btnEdit_Click(object sender, EventArgs e)
         {
             string update = "UPDATE STUDENT SET FIRSTNAME='" + ENameBox.Text+ "', LASTNAME='" + ELastNameBox.Text + "', DayOfBirth='"+ EDobBox.Text +"' WHERE SEQ="+ ESeqBox.Text +"";
-            string connString = "Server=DESKTOP-UV4U0E0;Database=INTEC;User Id=intec;Password=intec;";
+            string connString = "Server=desktop-91438d4;Database=INTEC;User Id=intec;Password=intec;";
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
                 SqlCommand cmd = new SqlCommand(update, sqlConnection);

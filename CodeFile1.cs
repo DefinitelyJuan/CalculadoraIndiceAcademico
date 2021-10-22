@@ -6,8 +6,6 @@ namespace Back
 {
 	public class ConnectionToSql
 	{
-		private readonly string connectionString;
-
 		private SqlConnection Conexion = new SqlConnection("Server = desktop-91438d4;DataBase = ProyectoIDS311; Integrated Security = true");
 		//Open Connection String
 		public SqlConnection OpenConnection()
@@ -27,7 +25,6 @@ namespace Back
 		{
 			private ConnectionToSql connection = new ConnectionToSql();
 
-			SqlDataReader read;
 			SqlCommand command = new SqlCommand();
 
 			public bool Login(string user, string pass)
