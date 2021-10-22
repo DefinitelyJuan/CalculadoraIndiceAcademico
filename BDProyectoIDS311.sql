@@ -31,4 +31,8 @@ Go
 INSERT INTO Register (StName, StSurname, Career, StPassword) VALUES ( 'Victor','Toribio', 'Ingeniería de Software', 'klk')
 go
 
+USE ProyectoIDS311
+GO
 
+CREATE PROCEDURE sp_Student
+AS SELECT RegisterID, StudentID, SubjectID, SubjectName,Credits,Grade FROM [Students] ORDER BY [StudentID] ASC;
