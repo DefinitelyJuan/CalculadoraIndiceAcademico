@@ -6,7 +6,7 @@ namespace Back
 {
 	public class ConnectionToSql
 	{
-		private SqlConnection Conexion = new SqlConnection("Server = desktop-91438d4;DataBase = ProyectoIDS311; Integrated Security = true");
+		private SqlConnection Conexion = new SqlConnection("Server =.;DataBase = ProyectoIDS311; Integrated Security = true");
 		//Open Connection String
 		public SqlConnection OpenConnection()
 		{
