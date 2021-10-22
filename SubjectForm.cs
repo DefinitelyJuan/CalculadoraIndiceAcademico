@@ -169,7 +169,11 @@ namespace Intec
                 {
                     creditos = Convert.ToInt32(row.Cells[4].Value.ToString());
                     sumaCreditos += creditos;
-                }//suma de creditos
+                }
+                else 
+                {
+                    return;
+                }
 
                 if (row.Cells[5].Value != null)
                 {
@@ -192,6 +196,11 @@ namespace Intec
                             sumaPuntos += 0 * creditos;
                             break;
                     }
+                    
+                }
+                else
+                {
+                    return;
                 }
             }
 
