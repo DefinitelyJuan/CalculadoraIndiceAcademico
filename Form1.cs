@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 using Back;
-using SubjectForm;
 
-namespace IndiceLog
+
+namespace Intec
 {
     public partial class Form1 : Form
     {

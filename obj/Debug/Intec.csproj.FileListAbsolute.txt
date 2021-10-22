@@ -27,7 +27,6 @@ C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\bin\Deb
 C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\moroc\Downloads\Proyecto - Intec\Proyecto - Intec\Intec - copia\obj\Debug\Intec.csproj.CopyComplete
 C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\obj\Debug\Intec.csproj.AssemblyReference.cache
-C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\obj\Debug\IndiceLog.Form1.resources
 C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\obj\Debug\Intec.Properties.Resources.resources
 C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\obj\Debug\Intec.StudentForm.resources
 C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\obj\Debug\Intec.SubjectForm.resources
@@ -35,3 +34,11 @@ C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\obj\Debug\
 C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\obj\Debug\Intec.csproj.CoreCompileInputs.cache
 C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\obj\Debug\Intec.exe
 C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\obj\Debug\Intec.pdb
+C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\bin\Debug\Intec.exe.config
+C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\bin\Debug\Intec.exe
+C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\bin\Debug\Intec.pdb
+C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\bin\Debug\EntityFramework.dll
+C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\bin\Debug\EntityFramework.xml
+C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Source\Repos\DefinitelyJuan\CalculadoraIndiceAcademico\obj\Debug\Intec.Form1.resources

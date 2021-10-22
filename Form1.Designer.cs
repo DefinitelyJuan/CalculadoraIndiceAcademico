@@ -1,5 +1,5 @@
 ﻿
-namespace IndiceLog
+namespace Intec
 {
     partial class Form1
     {

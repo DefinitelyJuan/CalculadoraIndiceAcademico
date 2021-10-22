@@ -135,8 +135,8 @@ namespace Intec
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            var oForm1 = new Form1();
-            oForm1.Show();
+            /*var oForm1 = new Form1();
+            oForm1.Show();*/
 
             this.Hide();
         }
