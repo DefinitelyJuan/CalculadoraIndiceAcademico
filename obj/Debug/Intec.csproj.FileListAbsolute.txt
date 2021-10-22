@@ -49,7 +49,6 @@ C:\Users\moroc\Desktop\proyect\CalculadoraIndiceAcademico\bin\Debug\EntityFramew
 C:\Users\moroc\Desktop\proyect\CalculadoraIndiceAcademico\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\moroc\Desktop\proyect\CalculadoraIndiceAcademico\bin\Debug\EntityFramework.xml
 C:\Users\moroc\Desktop\proyect\CalculadoraIndiceAcademico\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\moroc\Desktop\proyect\CalculadoraIndiceAcademico\obj\Debug\Intec.csprojAssemblyReference.cache
 C:\Users\moroc\Desktop\proyect\CalculadoraIndiceAcademico\obj\Debug\Intec.Form1.resources
 C:\Users\moroc\Desktop\proyect\CalculadoraIndiceAcademico\obj\Debug\Intec.Properties.Resources.resources
 C:\Users\moroc\Desktop\proyect\CalculadoraIndiceAcademico\obj\Debug\Intec.SubjectForm.resources

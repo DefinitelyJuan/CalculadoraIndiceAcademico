@@ -59,9 +59,10 @@ namespace Intec
             gbEdit.Enabled = true;
         }
 
+
         private void btnSave_Click(object sender, EventArgs e)
         {
-            string add = "INSERT INTO STUDENTS (STUDENTID, SUBJECTID, SUBJECTNAME , CREDITS, GRADE)" + "VALUES("+ idBox.Text + ",'" + CodeBox.Text + "','" + NameBox.Text + "'," + CreditBox.Text + ",'" + notaBox.Text + "')";
+            string add = "INSERT INTO STUDENTS (STUDENTID, SUBJECTID, SUBJECTNAME , CREDITS, GRADE)" + "VALUES(" + idBox.Text + ",'" + CodeBox.Text + "','" + NameBox.Text + "'," + CreditBox.Text + ",'" + notaBox.Text + "')";
             string connString = "Server=.;Database=ProyectoIDS311;Integrated Security = true";
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
@@ -92,7 +93,7 @@ namespace Intec
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            string delete = "DELETE FROM SUBJECT WHERE Code=" + "'" + DCodeBox.Text + "'";
+            string delete = "DELETE FROM STUDENTS WHERE SUBJECTID=" + "'" + DCodeBox.Text + "'";
             string connString = "Server=.;Database=ProyectoIDS311;Integrated Security = true";
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
@@ -120,6 +121,7 @@ namespace Intec
             }
         }
 
+
         private void btnBack_Click(object sender, EventArgs e)
         {
             var Form1 = new Form1();
@@ -130,7 +132,7 @@ namespace Intec
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            string edit = "UPDATE SUBJECT SET NAME='" + ENameBox.Text + "', CREDITS='" + ECreditBox.Text + "' WHERE CODE='" + ECodeBox.Text + "'";
+            string edit = "UPDATE STUDENTS SET SUBJECTNAME='" + ENameBox.Text + "', CREDITS=" + ECreditBox.Text + ", STUDENTID=" + EidBox.Text + ", GRADE='" + EnotaBox.Text + "' WHERE SUBJECTID='" + ECodeBox.Text + "'";
             string connString = "Server=.;Database=ProyectoIDS311;Integrated Security = true";
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
@@ -204,8 +206,8 @@ namespace Intec
                 }
             }
 
-            indice = sumaPuntos/ sumaCreditos; 
-            labelIndice.Text = indice.ToString();
+            indice = sumaPuntos / sumaCreditos; 
+            labelpuntos.Text = indice.ToString();
             if (indice >= 3.8)
             {
                 labelHonor.Text = "Summa Cum Laude";
@@ -223,7 +225,6 @@ namespace Intec
                 labelHonor.Text = "Sin Honor";
             }
 
-            //añadir otro label que indique si es summa cum laude y eso (es un if/switch sencillo) 
         }
         private void SubjectForm_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -232,7 +233,68 @@ namespace Intec
 
         private void btnIndice_Click(object sender, EventArgs e)
         {
-            calcularIndice();
+            int sumaCreditos = 0, sumaPuntos = 0, creditos = 0;
+            float indice;
+            string nota;
+            foreach (DataGridViewRow row in dgvSubject.Rows)
+            {
+                if (row.Cells[4].Value != null)
+                {
+                    creditos = Convert.ToInt32(row.Cells[4].Value.ToString());
+                    sumaCreditos += creditos;
+                }
+                else
+                {
+                    continue;
+                }
+
+                if (row.Cells[5].Value != null)
+                {
+                    nota = row.Cells[5].Value.ToString().Trim();
+                    switch (nota)
+                    {
+                        case "A":
+                            sumaPuntos += 4 * creditos;
+                            break;
+                        case "B":
+                            sumaPuntos += 3 * creditos;
+                            break;
+                        case "C":
+                            sumaPuntos += 2 * creditos;
+                            break;
+                        case "D":
+                            sumaPuntos += 1 * creditos;
+                            break;
+                        case "F":
+                            sumaPuntos += 0 * creditos;
+                            break;
+                    }
+
+                }
+                else
+                {
+                    continue;
+                }
+            }
+
+            indice = sumaPuntos / sumaCreditos;
+            labelpuntos.Text = indice.ToString();
+            if (indice >= 3.8)
+            {
+                labelHonor.Text = "Summa Cum Laude";
+            }
+            else if (indice >= 3.5)
+            {
+                labelHonor.Text = "Magna Cum Laude";
+            }
+            else if (indice >= 3.2)
+            {
+                labelHonor.Text = "Cum Laude";
+            }
+            else
+            {
+                labelHonor.Text = "Sin Honor";
+            }
         }
     }
 }
