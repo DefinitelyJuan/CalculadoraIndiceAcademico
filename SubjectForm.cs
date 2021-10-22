@@ -91,7 +91,7 @@ namespace Intec
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            string delete = "DELETE FROM SUBJECT WHERE Code=" + "'" + DCodeBox.Text + "'";
+            string delete = "DELETE FROM STUDENTS WHERE SUBJECTID=" + "'" + DCodeBox.Text + "'";
             string connString = "Server=DESKTOP-UV4U0E0;Database=ProyectoIDS311;Integrated Security = true";
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
@@ -129,7 +129,7 @@ namespace Intec
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            string edit = "UPDATE SUBJECT SET NAME='" + ENameBox.Text + "', CREDITS='" + ECreditBox.Text + "' WHERE CODE='" + ECodeBox.Text + "'";
+            string edit = "UPDATE STUDENTS SET SUBJECTNAME='" + ENameBox.Text + "', CREDITS=" + ECreditBox.Text + ", STUDENTID=" + EidBox.Text + ", GRADE='" + EnotaBox.Text + "' WHERE SUBJECTID='" + ECodeBox.Text + "'";
             string connString = "Server=DESKTOP-UV4U0E0;Database=ProyectoIDS311;Integrated Security = true";
             using (SqlConnection sqlConnection = new SqlConnection(connString))
             {
